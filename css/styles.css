@@ -109,16 +109,26 @@ img {
     color: var(--color-hover);
 }
 
+.hover-icon{
+    margin-right: 10px;
+    fill: #ffffff;   
+}
+
 .contact {
     display: flex;
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
     margin-left: auto;
+}
+
+.contact li {
     
 }
 
 .contact a {
+    display: flex;
+    align-items: center;
     color: var(--color-secondary-text);
     padding-top: 32px;
     padding-bottom: 32px;
