@@ -187,13 +187,20 @@ h1 {
     padding: 94px 0;
 }
 
+.peculiarities-icon{
+    padding: 25px;
+    display: block;
+    margin-bottom: 30px;
+    background-color: var(--backgraund-team);
+    border-radius: 4px;
+}
+
 .peculiarities ul {
     display: flex;
     padding-left: 0;
 }
 
 .peculiarities li {
-    height: 101px;
     width: 270px;
 }
 
