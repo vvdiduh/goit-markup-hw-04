@@ -111,7 +111,7 @@ img {
 
 .hover-icon{
     margin-right: 10px;
-    fill: #ffffff;   
+    fill: currentColor;   
 }
 
 .contact {
