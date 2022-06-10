@@ -194,15 +194,11 @@ h1 {
 .peculiarities-icon{
     height: 120px;
     width: 270px;
-    padding: 25px;
-    display: block;
     margin-bottom: 30px;
     background-color: var(--backgraund-team);
     border-radius: 4px;
     display: flex;
-    align-content: center;
     justify-content: center;
-
 }
 
 .peculiarities ul {
@@ -258,7 +254,6 @@ h1 {
 .team-list {
     display: flex;
     padding-left: 0;
-    margin-bottom: 30px;
 }
 
 .team-list>li:not(:last-child) {
@@ -321,7 +316,7 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    fill: var(--color-secondary-text);
+    fill: #AFB1B8;
 }
 
 
@@ -343,8 +338,10 @@ h2 {
 }
 
 .client-link {
+    height: 92px;
+    width: 170px;
     border: var(--client-color) solid 1px;
-    border-radius: 4px;
+    border-radius: 4px;    
 }
 
 .client-link:hover{
@@ -352,7 +349,12 @@ h2 {
 }
 
 .client-link a{
+    width: 100%;
+    height: 100%;
     fill: var(--client-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .client-link a:hover {
